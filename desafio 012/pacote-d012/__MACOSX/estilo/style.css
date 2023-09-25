@@ -40,6 +40,19 @@ section {
   line-height: 2em;
   padding-left: 30px;
 }
+section > p{
+  padding-bottom: 2em;
+}
+section#img01{
+  background-image: url("../estilo/background001.jpg");
+  background-position: right center;
+  background-size: cover;
+}
+section#img02{
+  background-image: url("../estilo/background002.jpg");
+  background-size: cover;
+  background-position: right center ;
+}
 section.normal {
   background-color: white;
   color: black;
@@ -47,10 +60,14 @@ section.normal {
 section.imagem {
   background-color: rgb(51, 51, 51);
   color: white;
+  background-attachment: fixed;
 }
 section.imagem > p {
+  display: inline-block;
+  padding: 5px;
   width: 400px;
   background-color: rgba(0, 0, 0, 0.253);
+  text-shadow: 2px 2px 0px black;
 }
 footer {
   background-color: black;
